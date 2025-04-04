@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  log-archive:
+    build: .
+    container_name: log-archive
+    volumes:
+      - ./archived_logs:/archived_logs
+    restart: always
+
