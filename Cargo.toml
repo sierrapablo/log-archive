@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+chrono = "0.4.40"
+flate2 = "1.1.1"
+tar = "0.4.44"
