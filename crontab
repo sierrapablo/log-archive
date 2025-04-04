@@ -1,0 +1,1 @@
+0 3 * * * /usr/local/bin/log-archive /var/log >> /var/log/cron.log 2>&1
